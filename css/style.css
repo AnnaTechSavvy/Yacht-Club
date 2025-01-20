@@ -1,12 +1,14 @@
 body {
-    font-family: Roboto, serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: #163152;
     background-color: #FDFDFF;
-
 }
+
+
+/* header */
 
 .site-navigation-item a {
     font-size: 14px;
@@ -17,17 +19,20 @@ body {
     color: #163152;
 }
 
+
+
+/* main*/
+
 .hero h1 {
-
-
     font-size: 44px;
     font-style: italic;
-
+    font-weight: 400;
     line-height: 60px;
     /* 136.364% */
+    text-transform: uppercase;
 }
 
-.offers .date {
+.date {
     font-size: 14px;
     line-height: 18px;
     /* 128.571% */
@@ -35,7 +40,6 @@ body {
 }
 
 .offers h2 .contacts h2 {
-
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
@@ -43,13 +47,84 @@ body {
 }
 
 .contacts-item h3 {
-    font-weight: 700;
+    font-size: 16px;
     line-height: 22px;
-    /* 137.5% */
 }
 
-.footer-list h3 {
+.contacts-item a {
+    color: #163152;
+    font-style: normal;
+    line-height: 22px;
+    /* 137.5% */
+    text-decoration: none;
+}
 
+.text-underline {
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+}
+
+figcaption {
+    color: #8693A4;
+    line-height: 19px;
+    /* 118.75% */
+}
+
+.news h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    /* 118.182% */
+}
+
+.news p {
+    font-size: 18px;
+    line-height: 26px;
+    /* 144.444% */
+}
+
+.news h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    /* 130% */
+}
+
+blockquote {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    /* 138.462% */
+}
+
+.news a {
+    color: #163152;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    /* 118.75% */
+    text-decoration: none;
+}
+
+time {
+    color: #8693A4;
+    font-size: 16px;
+    line-height: 19px;
+    /* 118.75% */
+}
+
+.news h2 {
+    text-align: center;
+}
+
+/* footer */
+
+.footer-list h3 {
     font-size: 14px;
     font-weight: 700;
     line-height: 18px;
@@ -58,7 +133,6 @@ body {
 }
 
 .footer-list a {
-
     font-size: 14px;
     line-height: 16px;
     /* 114.286% */
@@ -68,7 +142,6 @@ body {
 
 .main-footer a {
     color: #163152;
-
     font-size: 10px;
     line-height: 12px;
     /* 120% */
@@ -76,17 +149,7 @@ body {
 }
 
 .main-footer p {
-
     font-size: 10px;
     line-height: 12px;
     /* 120% */
-}
-
-.contacts-list a {
-    color: #163152;
-
-    font-size: 16px;
-    line-height: 22px;
-    /* 137.5% */
-    text-decoration: none;
 }
