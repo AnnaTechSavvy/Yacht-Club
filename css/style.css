@@ -151,7 +151,8 @@ body {
 .event__title,
 .news__title,
 .contacts__title,
-.gallery__title {
+.gallery__title, 
+.rental__title {
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
@@ -162,6 +163,98 @@ body {
     text-underline-position: under;
     margin-bottom: 35px;
 }
+
+
+/* rental */
+.rental {
+    margin-bottom: 120px;
+}
+
+.rental__title {
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+
+.rental__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.rental__item-title {
+    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px; 
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+.rental__item-description {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+.rental__item {
+    width: 310px;
+    padding: 30px;
+    background-color:#FDFDFF;
+    box-shadow: 0px 4px 30px 0px rgba(22, 49, 82, 0.12);
+}
+
+
+.rental__features {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 29px;
+  
+}
+
+.rental__feature {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 4px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.rental__feature::before {
+    content: ""; 
+    position: absolute; 
+    left: 0;
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 8px; 
+    height: 8px; 
+    background-color:#163152;
+    border-radius: 50%;
+    flex-shrink: 0;
+    
+}
+
+.rental__img {
+    display: block;
+    margin-bottom: 21px;
+}
+
+.rental__price {
+    font-size: 18px;
+font-weight: 700;
+line-height: 21px; 
+margin: 0;
+display: flex;
+justify-content: space-between;
+}
+
 
 /* gallery */
 
